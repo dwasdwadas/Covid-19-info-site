@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Information</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #007bff; color: white; padding: 20px 0; text-align: center; }
+        section { padding: 20px; background: white; margin: 20px 0; border-radius: 8px; }
+        footer { background: #333; color: white; text-align: center; padding: 10px 0; margin-top: 20px; }
+        .btn { display: inline-block; padding: 10px 15px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>COVID-19 Information & Resources</h1>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>COVID-19 Monitoring & Updates</h2>
+            <p>Stay informed with the latest updates on COVID-19 cases, safety measures, and statistics.</p>
+        </section>
+        
+        <section>
+            <h2>Testing & Vaccination Locations</h2>
+            <p>Find the nearest locations to get tested and vaccinated.</p>
+            <ul>
+                <li>City Health Center - Downtown</li>
+                <li>Community Clinic - North Side</li>
+                <li>General Hospital - Main Street</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Requirements for Testing & Vaccination</h2>
+            <p>Ensure you bring the following:</p>
+            <ul>
+                <li>Valid ID</li>
+                <li>Medical history (if applicable)</li>
+                <li>Face mask (mandatory)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Fillable Form</h2>
+            <p>Please complete the form linked below for COVID-19 testing or vaccination registration.</p>
+            <a href="https://docs.google.com/forms/d/1HC59E2_jJT0kYGq5lk_IcwjuAYgl5b2RlAJwcisryM8/edit" class="btn" target="_blank">Fill Out Form</a>
+        </section>
+        
+        <section>
+            <h2>External Resources</h2>
+            <p>Visit the Ministry of Health for official COVID-19 guidelines and updates.</p>
+            <a href="https://www.who.int" class="btn" target="_blank">Visit Ministry of Health</a>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 COVID-19 Information Center | Stay Safe</p>
+    </footer>
+</body>
+</html>
